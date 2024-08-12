@@ -15,3 +15,8 @@ This is the Trello board set up for semester 2, however, it is still bare bones 
 ![Trello Board for Semester 2](/Trello_Board.PNG "Trello Board")
 
 So far, week 2 has been fairly productive, each of the team members have put in some good work in getting these documents ready, and we have also worked with Tom on a logo design for the game, he has done amazing work and we are all very happy with the logo design chosen.  
+
+## Week 3
+Week 3 was focused on finishing the pitch deck draft and other documents required for submission. We had added the remaining information we wanted to showcase in the pitch deck, and tried to adapt it to both the work required for university and what we want to do with the project after university.  
+
+Tom was able to come up with some mock up posters and some more materials that we ended up using as the background in the slides, as well as colouring the pitch deck to fit a theme.
