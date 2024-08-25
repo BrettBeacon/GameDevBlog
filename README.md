@@ -27,7 +27,9 @@ This is the poster Tom was able to mock up for the game and game title with the 
 
 ## Week 4
 Week 4 was when we presented our pitch deck to the class. I am super happy with the work that was put in, and considering it is just a draft, it has turned out really nice. We can now start to fill it out with the content that we make through the weeks and get it ready for the final presentation.  
+
 This was also the start of sprint 2, however, I have started working on the implementation of the weapons system, along side the animations and movement required for this, ideally, this was meant to be started back in the end of sprint 1, according to the timeline gantt we had set up, but things just got ahead of me, and I have had to move it to starting in sprint 2.  
+
 I have researched on how I might best achieve what I want for the shooting and weapons system, and found some interesting ways of achieving it, however, it also means I will need to start from scratch with the character movement system, as at this stage, what is currently implemented will directly clash with how the new system will be set up.  
 
 Just a reminder of where we are starting, and hopefully, in another 8-10 weeks, the differences will be massive.  
@@ -36,7 +38,9 @@ Just a reminder of where we are starting, and hopefully, in another 8-10 weeks, 
 
 ## Week 5
 Where are the weeks going?!?! End of week 5 already, end of sprint 2, god damn it, time seems to fly.  
+
 I have started implementing the new movement system with weapons and guns in mind, I have made a new scene to work in so I'm not having to go through menus and what not for testing purposes. I also implemented a new character model from the Unity Asset store just so I can play around with the animation rigging system in Unity, and adding weapons to hand slots. This wasn't possible with the current character model from Daniel, as I didnt have a version of him in a T-Pose, which I need for animation purposes. Daniel is also redesigning the hero character anyway, so using a new model isnt a big deal at this stage.  
+
 There is a lot of work to be done, and time seems to go faster than you remember, especially when you need to get things done.
 
 INSERT IMAGE OF NEW SCENE AND TESTING MODEL
