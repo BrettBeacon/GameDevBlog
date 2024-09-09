@@ -46,3 +46,16 @@ There is a lot of work to be done, and time seems to go faster than you remember
 INSERT IMAGE OF NEW SCENE AND TESTING MODEL
 
 ## Week 6
+In week 6, I was able to get more of the animation and rigging completed for the new shooting system. It is a new system that I haven't used before, but following a tutorial has helped me to implement it into the game quiet easily. The new system uses the Unity animation rigging system, it has multi-bone IK constraints which help to make sure the arms of the player are attached to the weapon, which makes it easier to move the weapon around without having to move the arms indenpentantly, saving on a lot of work. I have implemented the character holding the weapon in a position that makes sense for running. Further animations will be added for aiming.  
+
+![New Animation RIgging System T-Pose](/Week5_NewCharacterRigging&Animation.PNG "T-Pose")
+![New Animation Rigging System Running Pose](/Week5_NewCharacterRigging&Animation_InPose.PNG "Pose")
+![New Animation Rigging System Running Pose Behind](/Week5_NewCharacterRigging&Animation_InPoseBack.PNG "Pose Behind")
+
+I have also implmeneted new animations for the running that work in a 8 directional axis, which is an improvement upon the old running animation, which would slide when going side to side. The new animations use a blend tree that increases the speed based on the buttons pressed.  
+
+![New Animation Rigging System Running](/NewCharacterMovement.gif "Running Animations")
+
+## Week 7
+
+## Week 8
