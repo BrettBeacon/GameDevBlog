@@ -43,12 +43,10 @@ I have started implementing the new movement system with weapons and guns in min
 
 There is a lot of work to be done, and time seems to go faster than you remember, especially when you need to get things done.
 
-INSERT IMAGE OF NEW SCENE AND TESTING MODEL
-
 ## Week 6
 In week 6, I was able to get more of the animation and rigging completed for the new shooting system. It is a new system that I haven't used before, but following a tutorial has helped me to implement it into the game quiet easily. The new system uses the Unity animation rigging system, it has multi-bone IK constraints which help to make sure the arms of the player are attached to the weapon, which makes it easier to move the weapon around without having to move the arms indenpentantly, saving on a lot of work. I have implemented the character holding the weapon in a position that makes sense for running. Further animations will be added for aiming.  
 
-![New Animation RIgging System T-Pose](/Week5_NewCharacterRigging&Animation.PNG "T-Pose")
+![New Animation Rigging System T-Pose](/Week5_NewCharacterRigging&Animation.PNG "T-Pose")
 ![New Animation Rigging System Running Pose](/Week5_NewCharacterRigging&Animation_InPose.PNG "Pose")
 ![New Animation Rigging System Running Pose Behind](/Week5_NewCharacterRigging&Animation_InPoseBack.PNG "Pose Behind")
 
@@ -57,5 +55,11 @@ I have also implmeneted new animations for the running that work in a 8 directio
 ![New Animation Rigging System Running](/NewCharacterMovement.gif "Running Animations")
 
 ## Week 7
+Week 7 was a continuation of implementing more animations and rigging to help better control the characters shooting. This week, I focused on getting the aiming system working with the animations, and making sure the character's animations follow where the player is aiming. This builds on top of the animations and rigging system already implemeted in week 6.  
+
+![Aiming Rigging System](/NewCharacterMovementAiming.gif "Aiming")  
+
+This works by using a multi-constraint aiming rig which uses the Spine1, Spine2 and Head bones to rotate when the aim is moved, allowing a realistic look of movement. The aiming is also controlled using right mouse click, this allows the animation to be help in a hold position while running, then change to an aiming position when the player wants to aim.
 
 ## Week 8
+The start of week 8, my focus this week will be adding more on top of the animation and rigging system, implementing shooting and picking up weapons.
