@@ -62,4 +62,10 @@ Week 7 was a continuation of implementing more animations and rigging to help be
 This works by using a multi-constraint aiming rig which uses the Spine1, Spine2 and Head bones to rotate when the aim is moved, allowing a realistic look of movement. The aiming is also controlled using right mouse click, this allows the animation to be help in a hold position while running, then change to an aiming position when the player wants to aim.
 
 ## Week 8
-The start of week 8, my focus this week will be adding more on top of the animation and rigging system, implementing shooting and picking up weapons.
+The start of week 8, my focus this week will be adding more on top of the animation and rigging system, implementing shooting and picking up weapons.  
+
+During Week 8, I also received the skeleton crops / growth cycles from Alex, one of the 3D artists working on the game. There are a total of 4 growth cycles, however, I already had the final cycle in the form of the skeleton monster model, I just needed the 3 that came before it. Now I have them, I have changed over the carrot seed data in the game to now show the skeleton growth cycle models instead of the carrots growth cycles. The first growth, or the seedling stage is a skeleton skull and two bones on the soil, after the player waters this and the day clicks over, the next stage will show, which is the skeleton's hand raising out of the ground with his head as well, and the third stage is the skeleton trying to pull himself out of the ground. The final stage of growth is the full skeleton standing on the ground ready to be released and for the player to shoot and fight for loot.
+
+Here is a rapid GIF of the planting and growing in action:
+
+![Skeleton Monster Growing](/MonsterGrowingDemo.gif "Monster Growing of Skeleton")
