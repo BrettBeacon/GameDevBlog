@@ -69,3 +69,69 @@ During Week 8, I also received the skeleton crops / growth cycles from Alex, one
 Here is a rapid GIF of the planting and growing in action:
 
 ![Skeleton Monster Growing](/MonsterGrowingDemo.gif "Monster Growing of Skeleton")
+
+## Week 9
+Week 9 was a continued effort to get more of the weapon system in place. My focus is still to implement a robust weapons system that can go a long with the farming system that is already in place.  
+
+During weeks 8 and 9, I implemented a change with the shooting, from an instant raycast shot to a bullet being rendered with a tracer.
+
+![Raycast Shooting with Tracer](/RaycastShootingWithTracer.gif "Raycast shooting with tracer")
+
+I was also able to get a muzzle flash added to the weapon and on hit effects for when a bullet hits a surface. There are different on hit effects available, but at this stage, I am only using one. It could be changed later to detect what it is hitting and change the hit effected based on that, for example, when shooting a slime, the hit effect could be changed to a slime hit effect instead of the current metal hit effect.
+
+![Muzzle Flash](/MuzzleFlashWeaponAiming.gif "Muzzle Flash with Weapon Aiming")
+
+And finally, I also added in bullet drop, bullet speed and the rate of fire which can be changed in the inspector for further adjustment based on the weapon in use.
+
+![Bullet Render with Drop](/BulletRenderWithDrop.gif "Bullets being rendered with bullet drop")
+
+## Break Week
+Over the break week, I was starting to receive a lot of the models and other works from the team, so as a part of my job within the engine, I imported all the models and fixed up their materials and added in the animations.
+
+There was some issues with the importing and figuring out what settings were best for each of the assets, especially the slime as it was designed to be transparent.
+
+![Slime Opaque Test](/Slime_Opaque_Test.png "Opaque slime after importing before settings were changed")
+
+![Material Settings](/Material_Settings.gif "Changing the settings from opaque to transparent")
+
+After finding the change in the material settings, it was clear I was able to achieve the transparent look we wanted from what was designed from the 3D artists.
+
+![Transparent Settings](/Transparent_Material_Settings.gif "Changing the transparent settings to see the differences")
+
+As you can see above, there were some differences within the transparency settings, however, we stuck with the alpha channel with alpha clipping turned off. Alpha clipping was an option I thought would help to show the transparent look of the slime, and originally thought this was the solution, but when I found the transparent setting, it was clear alpha clipping was not a good choice.  
+
+So the slime went from this:
+
+![Opaque Slime](/Slime_Opaque_Test.png "Opaque Slime")
+
+to this:
+
+![Transparent Slime](/Slime_Transparent_Final.png "Transparent Slime")
+
+This is a much better look and feels like an actual slime monster.
+
+I was also able to import the other assets and add their materials and textures too.
+
+![Seeds](/Seeds_Test.png "A line up of all the seeds")
+![Slime Seed Transparent](/Slime_Seed_Transparent_Final.png "Fixing the slime seed to match the transparent look of the slime")
+![Slime & Crops with Transparent](/Slime_and_Crops_Transparent_Final.png "Final look of slime and crops")
+![Spider Crops](/Spider_Crop_Final.png "Spider crops for each growth stage")
+![Overall Look in Game](/Asset_Import_In_Game.png "An overall look of the assets in game")
+
+I was also able to import the animations of the Slime into Unity and hook them up to demo. I have only added in the attacking animation at this stage, but there is also a walking animation that I will show in Week 10.
+
+![Slime Attacking Animation](/Transparent_Slime_Attacking_Animation.gif "Slime Monster Attacking")
+
+Finally, in the break week, I was able to implement some weapon pick up, at this stage, it is implemented using spheres in the world that the player walks over to change weapon, however, this will be changed to a weapon selector wheel in week 10 or 11. There were also changes to the animation system as the player starts off with no weapon, so their hands are by their side, but when they run into a weapon, they pick it up and the animations and Hand IKs change to suit that weapon.  
+
+This was done by implementing animation capture code that allows me to set where the hands and gun are and capture the settings to be saved for the future without losing it when the game stops.
+
+![Weapon Pickup In Game](/Weapon_Pickup_Custom_Animation.gif "Weapon pickup in game")
+
+Here is the view from the editor viewport for a better look at how the animation changes for each weapon.
+
+![Weapon Pickup Editor Viewport](/Weapon_Pickup_Custom_Animation_Editor_Viewport.gif "Editor viewport version of weapon pickup")
+
+The systems and game are coming a long nicely, we are certainly behind on our timeline gantt, but I think we will have enough time to put all the systems together to showcase a short demo of the crops growing, the monsters being released and walking towards the player, the player shooting and killing the monsters and having multiple weapons to do it.
+
+## Week 10
