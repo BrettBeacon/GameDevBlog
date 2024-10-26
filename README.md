@@ -134,4 +134,34 @@ Here is the view from the editor viewport for a better look at how the animation
 
 The systems and game are coming a long nicely, we are certainly behind on our timeline gantt, but I think we will have enough time to put all the systems together to showcase a short demo of the crops growing, the monsters being released and walking towards the player, the player shooting and killing the monsters and having multiple weapons to do it.
 
-## Week 10
+## Weeks 10, 11 and 12
+During the 3 weeks after the break week, it was my goal to start bringing the game together, moving the things I worked on during the semester over to the original farm scene and start to build it out into a gameplay loop. While I wanted to stop production of anything new eventually, I worked on a few things in weeks 10 and 11, which mainly consist of implementing the weapon wheel system and improving the terrain.
+
+The weapon wheel was fairly simple to implement, however, hooking it up to the weapon pick up system proved to be a little challenging, although not impossible. Eventually, I was able to get the weapon wheel to act like the weapon pick up and the player is able to choose their weapon in the wheel. While there were some challenges, like ensuring there was a visible cursor when the weapon wheel was visible, making sure the cursor didn't impact the already implemented inventory system, and making sure the camera didn't move when the wheel was open, and finally, making sure the gun you selected didnt fire when clicking. All of this was achieved, however, there is still a small bug with the camera and the player when the weapon wheel or inventory is open, and that is when the inventory or weapon wheel is open, the camera is frozen in place, but the player can still move the character in the scene. This minor bug will be fixed at some point in the future, but not at this stage as it is not important enough to fix.
+
+![Weapon Wheel Selector](/NoShootingNoCameraMoveInventory.gif "Weapon Wheel working with no shooting")
+
+The other thing I worked on during these few weeks was implementing a better terrain system as well as adding in grass textures, grass terrain layer and a tree spawner. We had some problems in the beginning with the terrain, firstly we had just selected a brownish texture for the terrain layer to act as "dirt", however, after seeing this in action, we decided it didn't look good. We eventually changed it to a 2D grass texture that can sit on the terrain layer, this looked much better and helped to blend the 3D grass into the terrain. 
+
+Some other problems we had was with the 3D grasses we were using, and the trees we were using as well. The 3D trees we used in the tree paint brush tool were too high poly, and after spawning ~1000 of them, it slowed the game down way to much. We eventually fixed this by using a different tree we had, however, this new tree isn't as good looking, but for now, it works and does the job. 
+
+We also had a similar problem with the grass, however, this problem was happening when we still had the old tree, and it turns out the tree was the problem all along, however, I still changed the grass to an asset found on the Unity asset store that was specifically built for the terrain system. There is still a minor bug with the grass though, and that is the grass looks black before light hits it, this seemingly only happens after alt tabbing, as when first loading the Unity engine, the grass looks normal, it was only when I alt tabbed to a different program, that the grass would then turn black in the editor, and would stay black until light from the directional light object would hit it, then showing its true colour.
+
+![Grass changing colour with light](/GrassChangingColourWithLight.gif "Grass changing colour with light")
+
+## Beyond
+While officially, the 12 weeks of university program has ended, the games course usually gives extended assignment due dates due to the nature of making a game being incredibly difficult. This gives us more time beyond the due date of this assignment that documents what we had made during the semester, however, I would like to talk about what is left to do in the game to get it in a position I think is acceptable for submission and to show a small gameplay loop.
+
+- Enter all the seed data with the monsters
+- Change the first cycle of planting from the orange mound to a seed specific to the monster being planted
+- Release the monsters when they are at their final stage
+- Add a health system in so the player can kill the monsters
+- Ensure the monsters are added to the navmesh when released and the navmesh is working correctly
+- Add in debug buttons to help control the flow of time and the growing stages
+- Add in the animations of all the monsters
+- Add in any assets that haven't been so far
+
+There is still a lot to do, and so little time to do it in, at this stage, I think the important stuff will be handled first, but ideally, the entire list should be completed before submission. All of this is on top of finalising other assignment work in other classes, as well as getting the final pitch deck complete, the presentation slides done, and writing up scripts for what we want to say and who is gonna say it for both pitch deck and presentation!
+
+## After University
+There is so much more I would love to do with this game after university, and I really hope I will have the time and means to continue working on this game for the foreseeable future. I have applied for one of the 3-4 grants I would like to get, which would help achieve finishing the game, but these things aren't guaranteed, so we will see, maybe it will just be a part time project that I continue to work on solo outside of finding a job, either in the games industry or not.
