@@ -149,6 +149,19 @@ We also had a similar problem with the grass, however, this problem was happenin
 
 ![Grass changing colour with light](/Resources/GrassChangingColourWithLight.gif "Grass changing colour with light")
 
+I was also able to do a small mock up of what the farming might look like when filled out a decent amount, while these images show the same monster over the growth cycles, try to imagine different monsters in the different plots.
+
+![Monster Farming](/Resources/Aerial_View_Farm_Before_Seed_Change.PNG "Aerial View of the farm layout")
+
+The screenshots here are before any of the desired changes, as you can see, the first stage is still the orange mound, this will be changed at a later date.
+
+![Monster Farming Stage 1](/Resources/Skeleton_Seedling_Stage_Demo.PNG "Monster Farming Stage 1")
+![Monster Farming Stage 2](/Resources/Skeleton_Sapling_Stage_Demo.PNG "Monster Farming Stage 2")
+![Monster Farming Stage 3](/Resources/Skeleton_Third_Stage_Demo.PNG "Monster Farming Stage 3")
+![Monster Farming Stage 4](/Resources/Skeleton_FInal_Stage_Demo.PNG "Monster Farming Stage 4")
+
+The four cycles of the skeleton monster crop, not all monsters will be 4 stages, some will be less, some maybe more, this can be changed quiet easily in the game due to the way the seed data is set up.
+
 ## Beyond
 While officially, the 12 weeks of university program has ended, the games course usually gives extended assignment due dates due to the nature of making a game being incredibly difficult. This gives us more time beyond the due date of this assignment that documents what we had made during the semester, however, I would like to talk about what is left to do in the game to get it in a position I think is acceptable for submission and to show a small gameplay loop.
 
